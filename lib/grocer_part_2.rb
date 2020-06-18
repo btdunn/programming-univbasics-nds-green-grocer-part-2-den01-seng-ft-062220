@@ -51,8 +51,11 @@ total = 0
 counter = 0 
 
 while counter < final.length
-total += final[counter][:price] * final[counter][:count]
-
+  total += final[counter][:price] * final[counter][:count]
   counter += 1 
   end
+  if total > 100
+    total -= (total * .10)
+  end
+  total
 end
