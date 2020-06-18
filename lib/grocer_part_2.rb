@@ -13,7 +13,9 @@ while counter < coupons.length
       new_item_couponed[:count] += coupons[counter][:num]
       new_item[:count] -= coupons[counter][:num]
     else
-      new_
+      new_item_couponed = {
+        :item => new_item_couponed
+      }
       end
     end
     counter += 1 
