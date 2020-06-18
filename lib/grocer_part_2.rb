@@ -29,9 +29,9 @@ while counter < coupons.length
 end
 
 def apply_clearance(cart)
-  # Consult README for inputs and outputs
-  #
-  # REMEMBER: This method **should** update cart
+
+
+
 end
 
 def checkout(cart, coupons)
