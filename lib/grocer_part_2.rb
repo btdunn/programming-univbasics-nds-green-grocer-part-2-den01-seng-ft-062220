@@ -35,9 +35,10 @@ counter = 0
 while counter < cart.length
   if cart[counter][:clearance]
     cart[counter][:price] = (cart[counter][:price] - (cart[counter][:price] * .2)).round(2)
-  end
+    end
     counter += 1 
   end
+  cart
 end
 
 def checkout(cart, coupons)
