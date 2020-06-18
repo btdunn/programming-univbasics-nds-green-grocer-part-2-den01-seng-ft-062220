@@ -4,9 +4,10 @@ def apply_coupons(cart, coupons)
 
 counter = 0 
 
-while coupons.length < counter
-
-
+while counter < coupons.length
+  new_item = find_item_by_name_in_collection()
+    counter += 1 
+  end
 end
 
 def apply_clearance(cart)
