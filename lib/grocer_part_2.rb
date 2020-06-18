@@ -13,7 +13,7 @@ while counter < coupons.length
       new_item_couponed[:count] += coupons[counter][:num]
       new_item[:count] -= coupons[counter][:num]
     else
-      
+      new_
       end
     end
     counter += 1 
